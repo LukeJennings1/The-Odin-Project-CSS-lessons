@@ -1,0 +1,12 @@
+/*stylesheet*/
+
+/*The container is the parent and the text is the child*/
+.container .text { 
+/*We are telling it that any .text should be affected with the style
+declarations if it has .container as a parent*/
+    color: red;
+    background-color: yellow;
+    font-size: 20px;
+    text-align: center;
+
+}
